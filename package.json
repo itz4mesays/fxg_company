@@ -7,11 +7,9 @@
     "yarn": "1.x",
     "nodemon": "2.x"
   },
-  "description": "",
+  "description": "This is a company website for FXG IT Solutions Limited",
   "main": "main.js",
-  "scripts": {
-    "start": "nodemon main.js"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
