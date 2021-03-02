@@ -1,0 +1,7 @@
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.text-danger {
+    color: #fff !important;
+    font-weight: bold;
+}
