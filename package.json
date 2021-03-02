@@ -10,8 +10,7 @@
   "description": "This is a company website for FXG IT Solutions Limited",
   "main": "main.js",
   "scripts": {
-    "postinstall": "npm run build",
-    "start": "node main.js"
+    "start": "npm run build && node main.js"
   },
   "keywords": [],
   "author": "",
