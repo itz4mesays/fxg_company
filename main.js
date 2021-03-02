@@ -20,6 +20,6 @@ app.use('/', homeRoute)
 
 app.use(express.static('public')) //used for stylesheets
 
-app.listen(process.env.PORT || 3000, '0.0.0.0', function () {
+server.listen(process.env.PORT || 3000, '0.0.0.0', function () {
     console.log("Server is currently running on PORT " + (process.env.PORT || 3000));
 });
