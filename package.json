@@ -9,7 +9,9 @@
   },
   "description": "This is a company website for FXG IT Solutions Limited",
   "main": "main.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node main.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
