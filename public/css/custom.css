@@ -1,7 +1,22 @@
-body{
+/* body{
     font-family: 'Open Sans', sans-serif !important;
-}
+} */
 .text-danger {
     color: #fff !important;
     font-weight: bold;
+}
+::-webkit-input-placeholder{
+    color: black !important
+}
+::-moz-placeholder{
+    color: black !important;
+}
+:-ms-input-placeholder{
+    color: black !important;
+}
+:-moz-placeholder{
+    color: black !important;
+}
+.linkHover:hover{
+    color: #fff
 }
