@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   border-radius: 3px;
   font-size: 18px;
-  padding: 20px 40px; }
+  padding: 14px 40px; }
   .btn-xl:focus, .btn-xl.focus {
     color: white;
     background-color: #0575d4;
@@ -127,7 +127,7 @@ padding: 0 !important}
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
         color: #fec503; }
     #mainNav .container .navbar-nav .nav-item .nav-link {
-      font-size: 90%;
+      font-size: 16px;
       padding: 0.75em 0;
       font-family:  "Open Sans","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
@@ -327,7 +327,7 @@ section {
       height: 80px;
       position: absolute;
       z-index: 100;
-      background-color: #0575d4;
+      /* background-color: #0575d4; */
       color: white;
       border-radius: 100%;
       border: 7px solid #f1f1f1;
