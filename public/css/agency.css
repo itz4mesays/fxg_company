@@ -122,10 +122,12 @@ padding: 0 !important}
   #mainNav .container {
     padding: 0; }
     #mainNav .container .navbar-brand {
-      color: #0575d4;
-      font-family:  "Open Sans", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
+      color: #ffffff;
+      font-family:  "Open Sans", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; 
+      font-weight: bold;
+    }
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
-        color: #fec503; }
+        color: #0575d4; }
     #mainNav .container .navbar-nav .nav-item .nav-link {
       font-size: 16px;
       padding: 0.75em 0;
@@ -169,7 +171,7 @@ opacity: .8;
 
 .bg-img{
 
-  background-image: url("../img/FXG-01.png");
+  background-image: url("../img/FXG-02.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -640,11 +642,11 @@ body {
   font-size: 30px;
 }
 .partner_title .title:before {
-  width: 50px;
+  width: 26px;
   content: " ";
   position: absolute;
   border-bottom: solid 3px #7dcbd2;
-  left: 0;
+  left: 49%;
   top: 0;
 }
 
@@ -657,6 +659,7 @@ body {
   opacity: 0.3;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
+  flex: 0 0 24.333%;
 }
 .partner_item img {
   display: block;
