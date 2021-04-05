@@ -159,7 +159,17 @@ padding: 0 !important}
         font-size: 1.25em; } }
 
 header {
-  background-image: url("../img/header-bg.jpg");
+  
+  text-align: center;
+  color: white; 
+background-image: linear-gradient(to bottom, rgba(27, 26, 26, 0.5) 0%, rgba(27, 26, 26, 0) 31%, rgba(27, 26, 26, 0) 82%);
+background-color: #1b1a1a;
+opacity: .8;
+  }
+
+.bg-img{
+
+  background-image: url("../img/FXG-01.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -167,11 +177,18 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  text-align: center;
-  color: white; }
+  width: 100%;
+
+
+}
   header .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px; }
+    padding-bottom: 50px; 
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+  }
     header .intro-text .intro-lead-in {
       font-family:  "Open Sans","Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-style: italic;
